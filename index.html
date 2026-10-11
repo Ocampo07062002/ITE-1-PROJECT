@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shiella Mae Ocampo | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">Shiella.</div>
+
+            <ul id="navLinks" class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="menuBtn" class="menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <button id="themeBtn" class="theme-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+    <section id="home" class="home">
+
+        <div class="home-text">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hi, I'm <span>Shiella Mae Ocampo</span>
+            </h1>
+
+            <h2>Information Technology Student</h2>
+
+            <p>
+                I am a Bachelor of Science in Information Technology
+                 student who enjoys learning, creating,
+                  and exploring web development.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#about" class="btn">About Me</a>
+
+                <button onclick="hireMe()" class="btn hire">
+                    Hire Me
+                </button>
+            </div>
+
+            <p id="dateTime"></p>
+
+        </div>
+
+
+        <div class="profile-container">
+            <img src="1bdc9707-1ceb-409b-a566-d6b7d89b5ce5.jpeg"
+                 alt="Shiella Mae Ocampo"
+                 class="profile">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="info-card">
+                <h2>Personal Information</h2>
+
+                <div class="info-item">
+                    <span>Name:</span>
+                    <strong>Shiella Mae Ocampo</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Program:</span>
+                    <strong>Bachelor of Science in Information Technology</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>College:</span>
+                    <strong>Bestlink College of the Philippines</strong>
+                </div>
+
+                <div class="info-item">
+                    <span>Focus:</span>
+                    <strong>Web Development & Technology</strong>
+                </div>
+            </div>
+
+            <div class="info-card education-card">
+                <h2>Education</h2>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>Bestlink College of the Philippines</h3>
+                        <p>BS Information Technology • Current</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>Sta. Peregrina High School</h3>
+                        <p>High School</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>E. Rodriguez Jr. High School</h3>
+                        <p>Junior High School</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>D. Tuazon Elementary School</h3>
+                        <p>Elementary Education</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>Sacred Heart Academy La Loma</h3>
+                        <p>Elementary Education</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>Siena College Quezon City</h3>
+                        <p>Elementary Education</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-dot"></div>
+                    <div>
+                        <h3>Children of Mary Immaculate</h3>
+                        <p>Pre-School Education</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <main id="skills" class="skills-page">
+
+        <div class="skills-title">
+
+            <h1>My Skills</h1>
+
+            <p>
+                Technical and personal skills that I am developing as an IT student.
+            </p>
+
+        </div>
+
+
+        <!-- SKILLS CARDS -->
+        <div class="skills-grid">
+
+
+            <!-- TECHNICAL SKILLS -->
+            <div class="skills-card">
+
+                <h2>Technical Skills</h2>
+
+
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>HTML:</span>
+                        <strong>80%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar html"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>CSS:</span>
+                        <strong>95%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar css"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>JavaScript:</span>
+                        <strong>85%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar javascript"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>VS Code:</span>
+                        <strong>90%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar vscode"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill">
+
+                    <div class="skill-name">
+                        <span>Git & GitHub:</span>
+                        <strong>80%</strong>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar github"></div>
+                    </div>
+
+                </div>
+
+            </div>
+  <!-- PERSONAL SKILLS -->
+            <div class="skills-card personal-card">
+
+                <h2>Personal Skills</h2>
+
+
+                <div class="skill-tags">
+
+                    <span>Communication</span>
+                    <span>Teamwork</span>
+                    <span>Time Management</span>
+                    <span>Creativity</span>
+                    <span>Adaptability</span>
+                    <span>Problem Solving</span>
+                    <span>Willingness to Learn</span>
+                    <span>Organization</span>
+
+                </div>
+
+
+                <button
+                    class="learning-btn"
+                    onclick="showGoal(event)">
+
+                    Show my learning goal
+
+                </button>
+
+
+                <div id="learningGoal" class="learning-goal">
+
+                    <h3>My Learning Goal</h3>
+
+                    <p>
+                        My goal is to improve my programming and web development
+                        skills and become a confident IT professional.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <p>MY ACADEMIC WORK</p>
+            <h2>Activities & Portfolio</h2>
+            <h3>Outputs from Prelim, Midterm, and Finals.</h3>
+        </div>
+
+
+        <div class="projects-container">
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+
+                <img src="Presentación Técnica Neutral y Profesional.jpeg"
+                     alt="Project 1">
+
+                <div class="project-content">
+
+                    <span>01 / ACADEMIC ACTIVITY</span>
+
+                    <h3>Prelim Activities</h3>
+
+                    <button class="read-btn"
+                            onclick="openActivity(event, 'project1')">
+                        Open Activity
+                    </button>
+
+                    <div id="project1" class="project-more">
+                        <img src="Screenshot 2026-08-25 115843.png"
+                             alt="Prelim activity screenshot"
+                             class="activity-preview">
+
+                        <p>
+                            GitHub:
+                        </p>
+                        <a href="https://github.com/Ocampo07062002/MY-MULTIMEDIA-PAGE-" target="_blank" class="btn">
+                            View GitHub
+                        </a>
+                        <p>
+                            Activity page:
+                        </p>
+                        <a href="https://ocampo07062002.github.io/MY-MULTIMEDIA-PAGE-/" target="_blank" class="btn">
+                            View Project
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+
+                <img src="Cybersecurity Tech Slide Template for Presentations.jpeg"
+                     alt="Project 2">
+
+                <div class="project-content">
+
+                    <span>02 / ACADEMIC ACTIVITY</span>
+
+                    <h3>Midterm Activities</h3>
+
+                    <button class="read-btn"
+                            onclick="openActivity(event, 'project2')">
+                        Open Activity
+                    </button>
+
+                    <div id="project2" class="project-more">
+                        <img src="display.jpg"
+                             alt="Midterm activity display"
+                             class="activity-preview">
+
+                        <p>
+                            GitHub:
+                        </p>
+                        <a href="https://github.com/Ocampo07062002/Storybook-Shiella" target="_blank" class="btn">
+                            View GitHub
+                        </a>
+                        <p>
+                            Activity page:
+                        </p>
+                        <a href="https://ocampo07062002.github.io/Storybook-Shiella/" target="_blank" class="btn">
+                            View Project
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+
+                <img src="download.jpeg"
+                     alt="Project 3">
+
+                <div class="project-content">
+
+                    <span>03 / ACADEMIC ACTIVITY</span>
+
+                    <h3>Finals Activities</h3>
+
+                    <button class="read-btn"
+                            onclick="openActivity(event, 'project3')">
+                        Open Activity
+                    </button>
+
+                    <div id="project3" class="project-more">
+                        <p>
+                            GitHub:
+                        </p>
+                        <a href="https://github.com/Ocampo07062002/happy-teacher-s-month" target="_blank" class="btn">
+                            View GitHub
+                        </a>
+                        <p>
+                            Activity page:
+                        </p>
+                        <a href="https://ocampo07062002.github.io/happy-teacher-s-month/" target="_blank" class="btn">
+                            View Project
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+
+            <p>GET IN TOUCH</p>
+
+            <h2>Contact Me</h2>
+
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Let's Connect</h3>
+
+                <p>
+                    If you have questions or would like to work with me,
+                    feel free to contact me.
+                </p>
+
+                <p>📧 Email:ocamposhiellamae2921@gmail.com</p>
+
+                <p>📱 Phone: 0945-1849-793</p>
+
+                <p>📍 Location: Quezon City, Philippines</p>
+
+                <p>🌐 GitHub: github.com/shiellamae</p>
+
+            </div>
+
+
+            <form onsubmit="sendMessage(event)">
+
+                <input type="text"
+                       placeholder="Your Name"
+                       required>
+
+                <input type="email"
+                       placeholder="Your Email"
+                       required>
+
+                <textarea placeholder="Your Message"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>Shiella Mae Ocampo</h3>
+
+            <p>Information Technology Student</p>
+
+            <p>
+                © 2026 Shiella Mae Ocampo. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button id="topBtn" onclick="goTop()">↑</button>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
